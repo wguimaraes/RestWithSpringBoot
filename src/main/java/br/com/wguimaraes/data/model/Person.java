@@ -1,4 +1,4 @@
-package br.com.wguimaraes.model;
+package br.com.wguimaraes.data.model;
 
 import java.io.Serializable;
 
@@ -82,7 +82,7 @@ public class Person implements Serializable {
 	}
 
 	public Long getId() {
-		return id;
+		return this.id;
 	}
 
 	public void setId(Long id) {
@@ -90,7 +90,7 @@ public class Person implements Serializable {
 	}
 
 	public String getFirstName() {
-		return firstName;
+		return this.firstName;
 	}
 
 	public void setFirstName(String firstName) {
@@ -98,7 +98,7 @@ public class Person implements Serializable {
 	}
 
 	public String getLastName() {
-		return lastName;
+		return this.lastName;
 	}
 
 	public void setLastName(String lastName) {
@@ -106,7 +106,7 @@ public class Person implements Serializable {
 	}
 
 	public String getAddress() {
-		return address;
+		return this.address;
 	}
 
 	public void setAddress(String address) {
@@ -114,7 +114,7 @@ public class Person implements Serializable {
 	}
 
 	public String getGender() {
-		return gender;
+		return this.gender;
 	}
 
 	public void setGender(String gender) {
