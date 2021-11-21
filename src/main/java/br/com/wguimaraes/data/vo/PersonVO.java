@@ -15,6 +15,7 @@ public class PersonVO extends ResourceSupport implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	@Mapping("id")
+	@JsonProperty("id")
 	private Long key;
 
 	@JsonProperty("last_name")
