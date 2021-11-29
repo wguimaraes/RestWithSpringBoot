@@ -24,7 +24,7 @@ import io.swagger.annotations.ApiOperation;
 
 @Api(value = "Person endpoint", description = "Description of person endpoint", tags = {"PersonEndpoint", "RESTFul"})
 @RestController
-@RequestMapping("/person")
+@RequestMapping("/api/person/")
 public class PersonController {
 	
 	@Autowired
